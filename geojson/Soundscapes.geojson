@@ -1,0 +1,47 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "description": "*09/12/2017*\n\nSoundscape from the central market of Bamako, Mali on December 9, 2017\n\n{{{https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/523905291&color=%23ffd300&auto_play=true&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true|125px}}}",
+        "name": "Bamako Market"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -7.973328,
+          12.621578
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "description": "*17/11/2018*\n\nSoundscape of people chatting while eating at Soribou, Mali on November , 2018\n\n{{{https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/597833997&color=%23ffd300&auto_play=true&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true|125px}}}",
+        "name": "Eating in Soribou"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -8.658128,
+          12.939967
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "description": "*01/10/2018*\n\nKenyan women singing at the bead factory in Nairobi, Kenya before praying during a break from work.\n\n{{{https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/523947078&color=%23ffd300&auto_play=true&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true|125px}}}",
+        "name": "Kenyan women singing"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          36.708455,
+          -1.343213
+        ]
+      }
+    }
+  ]
+}

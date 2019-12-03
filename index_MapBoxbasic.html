@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset='utf-8' />
+<title>Sounds of the World | A sound map of the world #soundscapes #streetmusic</title>
+<meta name='viewport' content='initial-scale=1,maximum-scale=1,user-scalable=no' />
+<meta name="description" content="A map created to share the sonorous wealth of our planet. You will be able to find different varieties of sounds, of near and far places, sounds of nature, musics, soundscapes, etc.">
+<meta name="keywords" content="world, map, sounds, soundscapes, music">
+<meta name="author" content="b1tdreamer">
+<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+<link rel="stylesheet" type="text/css" href="css/soundsoftheworld.css">
+<link rel="apple-touch-icon" sizes="180x180" href="img/180icon.png">
+<link rel="manifest" href="img/192icon.png">
+<link rel="icon" href="img/64icon.png">
+<script src='https://api.tiles.mapbox.com/mapbox-gl-js/v1.5.0/mapbox-gl.js'></script>
+<link href='https://api.tiles.mapbox.com/mapbox-gl-js/v1.5.0/mapbox-gl.css' rel='stylesheet' />
+<link href='css/sotw.css' rel='stylesheet' />
+</head>
+<body>
+	<div class="logo"><img src="img/SoundsOfTheWorld.png" alt="Sounds of the World logo"/></div>
+	<div id='map'></div>
+<script>
+mapboxgl.accessToken = "pk.eyJ1IjoiYjF0ZHJlYW1lciIsImEiOiJjazNrc2R2ZTkwOXQ3M2pxcWN3NHF2eWg3In0.Q_eYKI5Jv6EJH_5Bc97lFw"
+var map = new mapboxgl.Map({
+container: 'map', // container id
+style: 'mapbox://styles/b1tdreamer/ck3lw5ujl53jz1co14b8mrgba', // b1t stylesheet location
+//style: 'mapbox://styles/mapbox/streets-v11', // stylesheet location
+center: [2, -2], // starting position [lng, lat]
+zoom: 2 // starting zoom
+});
+</script>
+</body>
+</html>

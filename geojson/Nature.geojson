@@ -1,0 +1,33 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Gio's Dawn",
+        "description": "*04/04/2019*\n\nSound landscape of birds and a stream at dawn in Gio, Asturies on May 2019\n\n{{{https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/617913000&color=%2319730f&auto_play=true&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true|125px}}}"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -6.741829,
+          43.487801
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Masai Mara Forest",
+        "description": "*13/09/2019*\n\nNature soundscape of a Masai Mara forest in Kenya, September 2019\n\n{{{https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/712197004&color=%2344580c&auto_play=true&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true|125px}}}"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          36.093521,
+          -0.433269
+        ]
+      }
+    }
+  ]
+}

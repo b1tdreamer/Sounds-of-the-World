@@ -1,0 +1,9 @@
+### Colors
+
+orange  #f7b300
+red     #e50000
+blue    #0099b3
+
+### Sound Map
+
+A map created to share the sonorous wealth of our planet. You will discover different varieties of sounds, from nearby and remote places, sounds of nature, music, soundscapes, etc.

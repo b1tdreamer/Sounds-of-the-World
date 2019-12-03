@@ -1,0 +1,27 @@
+body {
+  margin: 0; padding: 0;
+}
+.logo{
+  position: absolute;
+  top: 5px;
+  left: 5px;
+  z-index: 9999;
+}
+#map{
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  width: 100%;
+};
+
+/* For mobile phones: */
+.logo img{
+  width: 65px;
+}
+
+@media only screen and (min-width: 768px) {
+  /* For desktop: */
+  .logo img{
+    width: 195px;
+  }
+}

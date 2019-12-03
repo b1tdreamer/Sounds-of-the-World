@@ -1,0 +1,33 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "description": "*11/06/2018*\n\nSoundscape of people praying during Laylat Al-Qadr, the Night of Decree in Mayahi, Niger, 2018\n\n{{{https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/597835452&color=%23ffd300&auto_play=true&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true|125px}}}",
+        "name": "Laylat Al-Qadr"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.767613,
+          14.315827
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "description": "*06/02/2018*\n\nPraying in the Orthodox Christian churches of Lalibella, Ethiopia\n\n{{{https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/524174118&color=%23ffbb00&auto_play=true&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true|125px}}}",
+        "name": "Praying at Lalibella"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          39.044806,
+          12.031507
+        ]
+      }
+    }
+  ]
+}

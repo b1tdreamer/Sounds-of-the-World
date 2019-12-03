@@ -1,0 +1,81 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Essaouira Gnawa Festival",
+        "description": "*21/06/2018*\n\nInauguration of the 21st edition of the festival of gnawa music and world music in Essaouira, Morocco\n\n{{{https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/523899282&color=%23ffd300&auto_play=true&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true|125px}}}"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -9.764262,
+          31.511199
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Gonder minstrel",
+        "description": "*12/02/2018*\n\nStreet musician recorded in Gonder, Ethiopia on February 12, 2018\n\n{{{https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/523920162&color=%23ffd300&auto_play=true&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true\"|125px}}}"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          37.465748,
+          12.620112
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_storage_options": {
+          "iconClass": "Circle"
+        },
+        "description": " *09/12/2017*\n\nMusicians playing a ngoni, a djembe and a shekere at the Bamako market, Mali\n\n{{{https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/524372925&color=%23ffbb00&auto_play=true&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true|125px}}}",
+        "name": "Musicians playing in the market",
+        "_umap_options": {
+          "iconClass": "Drop"
+        }
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -8.096924,
+          12.629618
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "description": "*21/11/20189*\n\n\"Rueda de gaitas\" the 21st November 2019, during the \"paro nacional\" of Colombia in Bogotá.\n\n{{{https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/718025299&color=%237502b0&auto_play=true&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true|125px}}}",
+        "name": "Rueda de Gaitas"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.069846,
+          4.613898
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "description": "*13/08/2018*\n\nMulham is a Syrian musician and guitar player that uses a loop station for his creations.\nThis piece is recorded in Plaza de Nelson Mandela, Lavapies, Madrid.\n\n{{{https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/563815128&color=%23ffd300&auto_play=true&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true|125px}}}",
+        "name": "Syrian guitarrist"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -3.703701,
+          40.41
+        ]
+      }
+    }
+  ]
+}

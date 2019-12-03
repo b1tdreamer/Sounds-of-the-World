@@ -1,0 +1,291 @@
+{
+  "type": "umap",
+  "uri": "https://umap.openstreetmap.co/es/map/sound-map_1892#3/21.94/40.43",
+  "properties": {
+    "easing": true,
+    "tilelayersControl": null,
+    "measureControl": null,
+    "embedControl": true,
+    "editinosmControl": null,
+    "fullscreenControl": true,
+    "locateControl": null,
+    "searchControl": true,
+    "datalayersControl": "expanded",
+    "zoomControl": true,
+    "longCredit": "Lorem ipsum dolor sit amet",
+    "shortCredit": "b1tdreamer",
+    "labelInteractive": true,
+    "showLabel": null,
+    "slideshow": {
+      "delay": 4000,
+      "active": false,
+      "easing": false,
+      "autoplay": false
+    },
+    "captionBar": false,
+    "popupContentTemplate": "# {name}\n{description}",
+    "popupTemplate": "SimplePanel",
+    "iconClass": "Drop",
+    "limitBounds": {},
+    "tilelayer": {
+      "tms": false,
+      "name": "Water Color",
+      "maxZoom": 16,
+      "minZoom": 0,
+      "attribution": "&copy; [[http://www.openstreetmap.org/copyright|OpenStreetMap]] contributors, &copy;",
+      "url_template": "https://stamen-tiles-{s}.a.ssl.fastly.net/watercolor/{z}/{x}/{y}.png"
+    },
+    "licence": {
+      "url": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "name": "CC BY-SA 4.0"
+    },
+    "description": "A map created to share the sonorous wealth of our planet, in it you will be able to find different varieties of sounds, of near and far places, sounds of nature, musics of world transmitted by people throughout this world.",
+    "name": "Sound Map",
+    "onLoadPanel": "caption",
+    "displayPopupFooter": false,
+    "miniMap": false,
+    "moreControl": false,
+    "scaleControl": true,
+    "scrollWheelZoom": true,
+    "zoom": 3
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      40.42968750000001,
+      21.94304553343818
+    ]
+  },
+  "layers": [
+    {
+      "type": "FeatureCollection",
+      "features": [
+        {
+          "type": "Feature",
+          "properties": {
+            "name": "Gio's Dawn",
+            "description": "*04/04/2019*\n\nSound landscape of birds and a stream at dawn in Gio, Asturies on May 2019\n\n{{{https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/617913000&color=%2319730f&auto_play=true&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true|125px}}}"
+          },
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              -6.741829,
+              43.487801
+            ]
+          }
+        },
+        {
+          "type": "Feature",
+          "properties": {
+            "name": "Masai Mara Forest",
+            "description": "*13/09/2019*\n\nNature soundscape of a Masai Mara forest in Kenya, September 2019\n\n{{{https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/712197004&color=%2344580c&auto_play=true&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true|125px}}}"
+          },
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              36.093521,
+              -0.433269
+            ]
+          }
+        }
+      ],
+      "_umap_options": {
+        "displayOnLoad": true,
+        "browsable": true,
+        "remoteData": {},
+        "name": "Nature Sounds",
+        "description": "Sounds of nature, of the elements, plants and animals. Sound landscapes in which there is no human intervention.",
+        "color": "ForestGreen"
+      }
+    },
+    {
+      "type": "FeatureCollection",
+      "features": [
+        {
+          "type": "Feature",
+          "properties": {
+            "name": "Essaouira Gnawa Festival",
+            "description": "*21/06/2018*\n\nInauguration of the 21st edition of the festival of gnawa music and world music in Essaouira, Morocco\n\n{{{https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/523899282&color=%23ffd300&auto_play=true&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true|125px}}}"
+          },
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              -9.764262,
+              31.511199
+            ]
+          }
+        },
+        {
+          "type": "Feature",
+          "properties": {
+            "name": "Gonder minstrel",
+            "description": "*12/02/2018*\n\nStreet musician recorded in Gonder, Ethiopia on February 12, 2018\n\n{{{https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/523920162&color=%23ffd300&auto_play=true&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true\"|125px}}}"
+          },
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              37.465748,
+              12.620112
+            ]
+          }
+        },
+        {
+          "type": "Feature",
+          "properties": {
+            "_storage_options": {
+              "iconClass": "Circle"
+            },
+            "description": " *09/12/2017*\n\nMusicians playing a ngoni, a djembe and a shekere at the Bamako market, Mali\n\n{{{https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/524372925&color=%23ffbb00&auto_play=true&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true|125px}}}",
+            "name": "Musicians playing in the market",
+            "_umap_options": {
+              "iconClass": "Circle"
+            }
+          },
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              -7.964264,
+              12.618897
+            ]
+          }
+        },
+        {
+          "type": "Feature",
+          "properties": {
+            "description": "*13/08/2018*\n\nMulham is a Syrian musician and guitar player that uses a loop station for his creations.\nThis piece is recorded in Plaza de Nelson Mandela, Lavapies, Madrid.\n\n{{{https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/563815128&color=%23ffd300&auto_play=true&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true|125px}}}",
+            "name": "Syrian guitarrist"
+          },
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              -3.703701,
+              40.41
+            ]
+          }
+        }
+      ],
+      "_umap_options": {
+        "displayOnLoad": true,
+        "browsable": true,
+        "remoteData": {},
+        "name": "Street Music",
+        "id": 3812,
+        "color": "DarkMagenta",
+        "description": "Recordings of musicians giving away their art on the streets, parks and squares throughout the world."
+      }
+    },
+    {
+      "type": "FeatureCollection",
+      "features": [
+        {
+          "type": "Feature",
+          "properties": {
+            "description": "*09/12/2017*\n\nSoundscape from the central market of Bamako, Mali on December 9, 2017\n\n{{{https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/523905291&color=%23ffd300&auto_play=true&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true|125px}}}",
+            "name": "Bamako Market"
+          },
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              -7.965946,
+              12.647206
+            ]
+          }
+        },
+        {
+          "type": "Feature",
+          "properties": {
+            "description": "*17/11/2018*\n\nSoundscape of people chatting while eating at Soribou, Mali on November , 2018\n\n{{{https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/597833997&color=%23ffd300&auto_play=true&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true|125px}}}",
+            "name": "Eating in Soribou"
+          },
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              -8.658128,
+              12.939967
+            ]
+          }
+        },
+        {
+          "type": "Feature",
+          "properties": {
+            "description": "*01/10/2018*\n\nKenyan women singing at the bead factory in Nairobi, Kenya before praying during a break from work.\n\n{{{https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/523947078&color=%23ffd300&auto_play=true&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true|125px}}}",
+            "name": "Kenyan women singing"
+          },
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              36.708455,
+              -1.343213
+            ]
+          }
+        }
+      ],
+      "_umap_options": {
+        "displayOnLoad": true,
+        "browsable": true,
+        "name": "Soundscapes",
+        "id": 3809,
+        "remoteData": {
+          "url": "https://electricsheep.org"
+        },
+        "description": "Sound landscapes of urban and rural areas, sounds that transport you to towns and cities of different cultures, languages and lifestyles.",
+        "color": "Gold",
+        "smoothFactor": "1.5",
+        "iconClass": "Drop"
+      }
+    },
+    {
+      "type": "FeatureCollection",
+      "features": [
+        {
+          "type": "Feature",
+          "properties": {},
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              201.796875,
+              52.802761
+            ]
+          }
+        },
+        {
+          "type": "Feature",
+          "properties": {
+            "description": "*11/06/2018*\n\nSoundscape of people praying during Laylat Al-Qadr, the Night of Decree in Mayahi, Niger, 2018\n\n{{{https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/597835452&color=%23ffd300&auto_play=true&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true|125px}}}",
+            "name": "Laylat Al-Qadr"
+          },
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              7.767613,
+              14.315827
+            ]
+          }
+        },
+        {
+          "type": "Feature",
+          "properties": {
+            "description": "*06/02/2018*\n\nPraying in the Orthodox Christian churches of Lalibella, Ethiopia\n\n{{{https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/524174118&color=%23ffbb00&auto_play=true&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true|125px}}}",
+            "name": "Praying at Lalibella"
+          },
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              39.044806,
+              12.031507
+            ]
+          }
+        }
+      ],
+      "_umap_options": {
+        "displayOnLoad": true,
+        "browsable": true,
+        "remoteData": {},
+        "name": "People Praying",
+        "description": "Different people praying their gods",
+        "id": 4272,
+        "color": "MidnightBlue"
+      }
+    }
+  ]
+}
