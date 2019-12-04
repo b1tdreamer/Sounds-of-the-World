@@ -1,13 +1,16 @@
 body {
   margin: 0; padding: 0;
+  font-family: "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif;
+  text-align: justify;
 }
 
-.logo{
-  position: absolute;
-  top: 5px;
-  left: 5px;
-  z-index: 9999;
+a{
+  text-decoration: none;
+  color: #f6b100;
+  -webkit-transition: color 0.5s; /* Safari prior 6.1 */
+  transition: color 0.5s;
 }
+a:hover{color:white;}
 
 #map{
   position: absolute;
@@ -16,44 +19,105 @@ body {
   width: 100%;
 }
 
-.logo img{
-  width: 100px;
-  -webkit-transition: width 0.5s; /* Safari prior 6.1 */
-  transition: width 0.5s;
+.logo{
+  position: absolute;
+  top: 5px;
+  left: 5px;
+  z-index: 9999;
 }
+  .logo img{
+    width: 100px;
+    -webkit-transition: width 0.5s; /* Safari prior 6.1 */
+    transition: width 0.5s;
+  }
+
+.info{
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 300px;
+  height: 100%;
+  padding: 0 60px;
+  background: rgba(25, 26, 26,0.8);
+  border-left: solid 1px #1b1f22;
+  color: #808080;
+  z-index: 3;
+}
+  .info .infologo{
+    display: block;
+    margin: 20px auto;
+    width: 200px;
+  }
+  .info h2{
+    margin: 0;
+    display: inline-block;
+  }
+  .info .circle{
+    vertical-align: sub;
+    margin-right: 5px;
+  }
+  .info .footer{
+    position: absolute;
+    bottom: 20px;
+    font-size: 15px;
+    text-align: center;
+    display: block;
+    width: 296px;
+  }
+  .copy-left {
+    font-size: 18px;
+    display: inline-block;
+    text-align: right;
+    -moz-transform: scaleX(-1);
+    -o-transform: scaleX(-1);
+    -webkit-transform: scaleX(-1);
+    transform: scaleX(-1);
+    filter: FlipH;
+    -ms-filter: "FlipH";
+    vertical-align: middle;
+  }
+  .mapboxgl-ctrl-bottom-right, .mapboxgl-ctrl-bottom-left{display:none;}
+
+.mapboxgl-popup-content{
+  background: #eee;
+  padding: 10px;
+}
+  .mapboxgl-map {
+    font: 14px/20px "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif;
+  }
+  .mapboxgl-map h3{ font-size: 1.7em; text-align: center;}
+  .mapboxgl-popup-content .tag{
+    padding: 8px;
+    font-size: 1.18em;
+    color: grey;
+    text-align: center;
+    display: inline-block;
+  }
+  .mapboxgl-popup-close-button{ font-size: 20px;}
 
 @media (min-width:320px){ /* smartphones, iPhone, portrait 480x320 phones */
-  .logo img{
-    width: 120px;
-  }
+  .logo img{width: 120px;}
+  .info{display:none;}
 }
 @media (min-width:481px){ /* portrait e-readers (Nook/Kindle), smaller tablets @ 600 or @ 640 wide. */
-  .logo img{
-    width: 140px;
-  }
+  .logo img{width: 140px;}
+  .info{display:none;}
 }
 @media (min-width:641px){ /* portrait tablets, portrait iPad, landscape e-readers, landscape 800x480 or 854x480 phones */
-  .logo img{
-    width: 180px;
-  }
+  .logo img{width: 180px;}
+  .info{display:none;}
 }
 @media (min-width:961px){ /* tablet, landscape iPad, lo-res laptops ands desktops */
-  .logo img{
-    width: 220px;
-  }
+  .logo img{width: 220px;}
+  .info{display:block;}
 }
 @media (min-width:1025px){ /* big landscape tablets, laptops, and desktops */
   .logo{
     top: 20px;
     left: 20px;
   }
-
-  .logo img{
-    width: 230px;
-  }
+  .logo img{width: 230px;}
 }
 @media (min-width:1281px){ /* hi-res laptops and desktops */
-  .logo img{
-    width: 240px;
-  }
+  .logo img{width: 240px;}
 }
