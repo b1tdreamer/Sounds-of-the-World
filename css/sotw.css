@@ -1,29 +1,59 @@
 body {
   margin: 0; padding: 0;
 }
+
 .logo{
   position: absolute;
   top: 5px;
   left: 5px;
   z-index: 9999;
 }
+
 #map{
   position: absolute;
   top: 0;
   bottom: 0;
   width: 100%;
-};
+}
 
-/*@media only screen and (max-width: 600px) {
-  /* For mobile phones: */
+.logo img{
+  width: 100px;
+  -webkit-transition: width 0.5s; /* Safari prior 6.1 */
+  transition: width 0.5s;
+}
+
+@media (min-width:320px){ /* smartphones, iPhone, portrait 480x320 phones */
   .logo img{
-    width: 65px;
+    width: 120px;
   }
-/*}*/
-
-@media only screen and (min-width: 768px) {
-  /* For desktop: */
+}
+@media (min-width:481px){ /* portrait e-readers (Nook/Kindle), smaller tablets @ 600 or @ 640 wide. */
   .logo img{
-    width: 195px;
+    width: 140px;
+  }
+}
+@media (min-width:641px){ /* portrait tablets, portrait iPad, landscape e-readers, landscape 800x480 or 854x480 phones */
+  .logo img{
+    width: 180px;
+  }
+}
+@media (min-width:961px){ /* tablet, landscape iPad, lo-res laptops ands desktops */
+  .logo img{
+    width: 220px;
+  }
+}
+@media (min-width:1025px){ /* big landscape tablets, laptops, and desktops */
+  .logo{
+    top: 20px;
+    left: 20px;
+  }
+
+  .logo img{
+    width: 230px;
+  }
+}
+@media (min-width:1281px){ /* hi-res laptops and desktops */
+  .logo img{
+    width: 240px;
   }
 }
