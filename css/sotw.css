@@ -104,19 +104,46 @@ a:hover{color:white;}
   .info{display:none;}
 }
 @media (min-width:641px){ /* portrait tablets, portrait iPad, landscape e-readers, landscape 800x480 or 854x480 phones */
-  .logo img{width: 180px;}
+  .logo img{width: 160px;}
   .info{display:none;}
 }
 @media (min-width:961px){ /* tablet, landscape iPad, lo-res laptops ands desktops */
-  .logo img{width: 220px;}
-  .info{display:block;}
+  .logo img{width: 180px;}
+  .info{
+      display:block;
+      padding: 0 30px;
+      width: 270px;
+  }
+  .info .infologo{
+      display: block;
+      margin: 10px auto;
+      width: 150px;
+  }
+  .info p{font-size: 13px;}
+  .info h2{font-size: 16px;}
+  .info .circle{width:15px;}
+  .info .footer{bottom: 15px;font-size: 13px;}
 }
 @media (min-width:1025px){ /* big landscape tablets, laptops, and desktops */
   .logo{
     top: 20px;
     left: 20px;
   }
-  .logo img{width: 230px;}
+  .logo img{width: 220px;}
+  .info{
+      display:block;
+      padding: 0 60px;
+      width: 300px;
+  }
+  .info .infologo{
+      display: block;
+      margin: 10px auto;
+      width: 150px;
+  }
+  .info p{font-size: 15px;}
+  .info h2{font-size: 18px;}
+  .info .circle{width:20px;}
+  .info .footer{bottom: 20px;font-size: 15px;}
 }
 @media (min-width:1281px){ /* hi-res laptops and desktops */
   .logo img{width: 240px;}
