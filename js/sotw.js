@@ -1,16 +1,15 @@
 function preload(){
-    var video = loadVideo("E:\\Videos\\World Live Code Loops\\YiroSlowMo.mp4");
+    var imagen = loadImage("SoundsOfTheWorld.png");
 }
 
 function setup(){
   createCanvas(windowWidth,windowHeight - 5);
   background(30,30,30);
-  video(video);
 }
 
 function draw(){
-  strokeWeight(3);
-  if(mouseIsPressed == true){
-    line(mouseX,mouseY,pmouseX,pmouseY)
-  }
+  image(imagen,0,0);
+  var colorPixel = imagen.get(mouseX,mouseY);
+  fill(colorPixel);
+  rect(50,50,50,50)
 }
