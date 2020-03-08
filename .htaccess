@@ -1,1 +1,7 @@
+Options +FollowSymLinks
+RewriteEngine on
 
+Rewriterule ^sound-cards/(.*)$ sound-cards.php?p=$1 [NS]
+
+ErrorDocument 404 /404.html
+DirectoryIndex index.php index.html

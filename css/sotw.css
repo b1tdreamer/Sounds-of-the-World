@@ -31,7 +31,30 @@ a:hover{color:white;}
     -webkit-transition: width 0.5s; /* Safari prior 6.1 */
     transition: width 0.5s;
   }
-
+.sound-card{
+  position: absolute;
+  top: 12%;
+  left: 7%;
+  margin: 0 auto;
+  width: 60%;
+  height: 70%;
+  padding: 60px 10%;
+  background: rgba(25, 26, 26,0.8);
+  border-left: solid 1px #1b1f22;
+  color: #ddd;
+  z-index: 3;
+  overflow-y: auto;
+}
+  .sound-card img{
+    display: block;
+    margin: 0 auto;
+    width: 100%;
+  }
+  .author{
+    text-align: right;
+    top: -50px;
+    position: relative;
+  }
 .info{
   position: absolute;
   top: 0;
@@ -95,6 +118,29 @@ a:hover{color:white;}
     display: inline-block;
   }
   .mapboxgl-popup-close-button{ font-size: 20px;}
+
+  /* SCROLLBAR Customization */
+  /* width */
+  ::-webkit-scrollbar {
+    width: 10px;
+  }
+
+  /* Track */
+  ::-webkit-scrollbar-track {
+    box-shadow: inset 0 0 5px grey;
+    border-radius: 5px;
+  }
+
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background: #f7b300;
+    border-radius: 10px;
+  }
+
+  /* Handle on hover */
+  ::-webkit-scrollbar-thumb:hover {
+    background: #b30000;
+  }
 
 @media (min-width:320px){ /* smartphones, iPhone, portrait 480x320 phones */
   .logo img{width: 120px;}

@@ -1,4 +1,6 @@
 *.docx
 *.pdf
 .ftpconfig
-.ftpconfig
+.ftpconfigSecure
+sound-cards*
+conn.php
