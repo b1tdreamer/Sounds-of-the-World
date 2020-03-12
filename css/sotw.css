@@ -27,9 +27,17 @@ a:hover{color:white;}
   z-index: 9999;
 }
   .logo img{
-    width: 100px;
+    width: 120px;
     -webkit-transition: width 0.5s; /* Safari prior 6.1 */
     transition: width 0.5s;
+    position: absolute;
+    top: 0;
+    left: 0;
+  }
+  .logo img.logoCircle{
+    animation: rotation 25s infinite linear;
+    z-index: -1;
+    top: 7px;
   }
 .sound-card{
   position: absolute;
@@ -88,6 +96,8 @@ a:hover{color:white;}
     display: block;
     width: 296px;
   }
+  .social img{margin: 0 8px;}
+  .ig{vertical-align: 6px;width: 20px}
   .copy-left {
     font-size: 18px;
     display: inline-block;
@@ -142,20 +152,29 @@ a:hover{color:white;}
     background: #b30000;
   }
 
+  @keyframes rotation {
+    from {
+      transform: rotate(0deg);
+    }
+    to {
+      transform: rotate(359deg);
+    }
+  }
+
 @media (min-width:320px){ /* smartphones, iPhone, portrait 480x320 phones */
-  .logo img{width: 120px;}
+  .logo img{width: 130px;}
   .info{display:none;}
 }
 @media (min-width:481px){ /* portrait e-readers (Nook/Kindle), smaller tablets @ 600 or @ 640 wide. */
-  .logo img{width: 140px;}
+  .logo img{width: 150px;}
   .info{display:none;}
 }
 @media (min-width:641px){ /* portrait tablets, portrait iPad, landscape e-readers, landscape 800x480 or 854x480 phones */
-  .logo img{width: 160px;}
+  .logo img{width: 170px;}
   .info{display:none;}
 }
 @media (min-width:961px){ /* tablet, landscape iPad, lo-res laptops ands desktops */
-  .logo img{width: 180px;}
+  .logo img{width: 190px;}
   .info{
       display:block;
       padding: 0 30px;
@@ -176,7 +195,7 @@ a:hover{color:white;}
     top: 20px;
     left: 20px;
   }
-  .logo img{width: 220px;}
+  .logo img{width: 240px;}
   .info{
       display:block;
       padding: 0 60px;
@@ -193,5 +212,5 @@ a:hover{color:white;}
   .info .footer{bottom: 20px;font-size: 15px;}
 }
 @media (min-width:1281px){ /* hi-res laptops and desktops */
-  .logo img{width: 240px;}
+  .logo img{width: 260px;}
 }
