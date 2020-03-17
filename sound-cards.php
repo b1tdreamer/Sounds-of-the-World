@@ -28,18 +28,26 @@ $rcsCard = mysqli_fetch_array($card);
 <body>
 	<div class="logo">
 		<a href="https://SoundsOfTheWorld.org" title="Sounds Of the World">
-			<img src="/img/SoundsOfTheWorld.png" alt="Sounds of the World logo"/>
+      <img src="/img/SoundsOfTheWorld-title.png" alt="Sounds of the World title"/>
+  		<img class="logoCircle" src="/img/SoundsOfTheWorld_circle.png" alt="Sounds of the World circle"/>
 		</a>
 	</div>
 	<div id='map'></div>
 	<div class="sound-card">
-		<h1><?=ucfirst($rcsCard["name"])?></h1>
-		<img class="infologo" src="/cards/<?=$rcsCard["name"]?>.jpg" alt="<?=$rcsCard["name"]?>"/>
+		<h1><?=ucfirst($rcsCard["title"])?></h1>
+		<?
+if($rcsCard["video_id"]){
+?>
+    <div class="videoWrapper" style="--aspect-ratio: 3 / 4;"><iframe class="infoMedia" src="https://www.youtube.com/embed/<?=$rcsCard["video_id"]?>" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>
+<? }else{ ?>
+    <img class="infoMedia" src="/cards/<?=$rcsCard["name"]?>.jpg" alt="<?=$rcsCard["name"]?>"/>
+<? } ?>
 		<h3><?=$rcsCard["location"]?> - <?=$rcsCard["date"]?></h3>
 		<a href="https://instagram.com/<?=$rcsCard["author"]?>" title="Created by <?=$rcsCard["author"]?>" target="_blank"><h2 class="author">@<?=$rcsCard["author"]?></h2></a>
-		<p><?=$rcsCard["description"]?></p>
-		<br/><br/>
-		<iframe width="100%" height="300" scrolling="no" frameborder="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/<?=$rcsCard["audio_id"]?>&color=%23f6cf00&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true&visual=true"></iframe>
+    <div class="infoCard">
+      <p><?=$rcsCard["description"]?></p>
+    </div>
+    <iframe width="100%" scrolling="no" frameborder="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/<?=$rcsCard["audio_id"]?>&color=%23f6cf00&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true&visual=true"></iframe>
 	</div>
 <script>
 mapboxgl.accessToken = "pk.eyJ1IjoiYjF0ZHJlYW1lciIsImEiOiJjazNrc2R2ZTkwOXQ3M2pxcWN3NHF2eWg3In0.Q_eYKI5Jv6EJH_5Bc97lFw"
