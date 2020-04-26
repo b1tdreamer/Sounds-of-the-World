@@ -3,6 +3,7 @@ body {
   font-family: "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Droid Sans", "Helvetica Neue", sans-serif;
   text-align: justify;
   background: #222;
+  overflow-x: hidden;
 }
 
 a{
@@ -53,6 +54,19 @@ a:hover{color:white;}
   z-index: 3;
   overflow-y: auto;
 }
+  .close{
+    position: absolute;
+    right: 16px;
+    color: #f7b300;
+    transition: color 0.3;
+    font-size: 32px;
+    display: block;
+    top: 10px;
+    cursor: pointer;
+  }
+  .close:hover{
+    color: #b30000;
+  }
   .sound-card .infoMedia{
     display: block;
     margin: 0 auto;
@@ -98,6 +112,7 @@ a:hover{color:white;}
   border-left: solid 1px #1b1f22;
   color: #808080;
   z-index: 3;
+  transition: right 0.5;
 }
   .info h2{
     margin: 0;
@@ -115,8 +130,8 @@ a:hover{color:white;}
     display: block;
     width: 296px;
   }
-  .social img{margin: 0 8px;}
-  .ig{vertical-align: 6px;width: 20px}
+  .social img{margin: 0 8px;opacity: 0.8}
+  .ig{vertical-align: 7px;width: 18px;}
   .copy-left {
     font-size: 18px;
     display: inline-block;
@@ -210,6 +225,7 @@ a:hover{color:white;}
   .info .circle{width:15px;}
   .info .footer{bottom: 15px;font-size: 13px;}
 }
+
 @media (min-width:1025px){ /* big landscape tablets, laptops, and desktops */
   .logo{
     top: 20px;

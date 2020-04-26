@@ -1,15 +1,17 @@
-function preload(){
-    var imagen = loadImage("SoundsOfTheWorld.png");
-}
+var state = 0;
 
-function setup(){
-  createCanvas(windowWidth,windowHeight - 5);
-  background(30,30,30);
-}
+$( document ).ready(function() {
 
-function draw(){
-  image(imagen,0,0);
-  var colorPixel = imagen.get(mouseX,mouseY);
-  fill(colorPixel);
-  rect(50,50,50,50)
-}
+  $('#closeInfo').click(function(){
+    if(state==0){
+      var x = $("#sideInfo").position();
+      x.right="250px";
+      state = 1;
+    }else{
+      var x = $("#sideInfo").position();
+      x.right="0px";
+      state = 0;
+    }
+    return false;
+  });
+});

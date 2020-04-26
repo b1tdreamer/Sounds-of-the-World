@@ -34,6 +34,7 @@ $rcsCard = mysqli_fetch_array($card);
 	</div>
 	<div id='map'></div>
 	<div class="sound-card">
+    <span class="close">&times;</span>
 		<h1><?=ucfirst($rcsCard["title"])?></h1>
 		<?
 if($rcsCard["video_id"]){

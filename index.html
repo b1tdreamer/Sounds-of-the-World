@@ -2,7 +2,7 @@
 <html>
 <head>
 <meta charset='utf-8' />
-<title>Sounds of the World | A sound map of the world #sounds #soundscapes #streetmusic</title>
+<title>Sounds of the World | A sound map of the world #sounds #soundscapes #streetmusic #poems</title>
 <meta name='viewport' content='initial-scale=1,maximum-scale=1,user-scalable=no' />
 <meta name="description" content="A map created to share the sonorous wealth of our planet. You will discover different varieties of sounds, from nearby and remote places, sounds of nature, music, soundscapes, etc.">
 <meta name="keywords" content="world, map, sounds, soundscapes, music, street musician, nature, birds, animals">
@@ -10,7 +10,9 @@
 <link rel="apple-touch-icon" sizes="180x180" href="img/180icon.png">
 <link rel="manifest" href="img/192icon.png">
 <link rel="icon" href="img/64icon.png">
-<script src='https://api.tiles.mapbox.com/mapbox-gl-js/v1.5.0/mapbox-gl.js'></script>
+<script src='https://api.tiles.mapbox.com/mapbox-gl-js/v1.5.0/mapbox-gl.js' type="text/javascript"></script>
+<script src="https://code.jquery.com/jquery-3.4.1.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
+<script src='js/sotw.js' type="text/javascript"></script>
 <link href='https://api.tiles.mapbox.com/mapbox-gl-js/v1.5.0/mapbox-gl.css' rel='stylesheet' />
 <link href='css/sotw.css' rel='stylesheet' />
 </head>
@@ -20,7 +22,8 @@
 		<img class="logoCircle" src="img/SoundsOfTheWorld_circle.png" alt="Sounds of the World circle"/>
 	</div>
 	<div id='map'></div>
-	<div class="info">
+	<div id="sideInfo" class="info">
+		<!--a href="#" title="Close panel" id="closeInfo" class="close">&times;</a-->
 		<img class="infologo" src="img/SoundsOfTheWorld-title.png" alt="Sounds of the World logo"/>
 		<p>A map created to share the sonorous wealth of our planet. You will discover different varieties of sounds, from nearby and remote places, sounds of nature, music, soundscapes, etc.</p>
 		<img src="img/blueCircle.png" alt="Soundscapes category" class="circle"/>
@@ -40,9 +43,9 @@
 		<p>In different languages and locations.</p>
 		<div class="footer">
 			<div class="social">
-				<a href="https://instagram.com/_soundsoftheworld_" target="_blank"><img src="img/ig.png" alt="Instagram profile of Sounds Of The World" class="ig"/></a>
-				<iframe allowtransparency="true" scrolling="no" frameborder="no" src="https://w.soundcloud.com/icon/?url=http%3A%2F%2Fsoundcloud.com%2Fsounds_of_the_world&color=white_transparent&size=32" style="width: 32px; height: 32px;"></iframe>
-			<p>Project created by <a href="https://b1tdreamer.me" title="b1tdreamer website" target="_blank">b1tdreamer</a> under <a href="https://creativecommons.org" target="_blank" class="copy-left">&copy;</a></p>
+				<a href="https://instagram.com/_soundsoftheworld_" target="_blank" title="Instagram profile of Sounds Of The World"><img src="img/ig.png" alt="Instagram profile of Sounds Of The World" class="ig"/></a>
+				<a href="https://soundcloud.com/soundsoftheworld" target="_blank" title="SoundCloud profile of Sounds Of The World"><img src="img/soundcloud.png" alt="SoundCloud profile of Sounds Of The World" class="sound"/></a>
+				<p>Project created by <a href="https://b1tdreamer.me" title="b1tdreamer website" target="_blank">b1tdreamer</a> under <a href="https://creativecommons.org" target="_blank" class="copy-left">&copy;</a></p>
 			</div>
 	</div>
 <script>
