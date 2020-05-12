@@ -110,13 +110,14 @@ a:hover{color:white;}
   padding: 0 60px;
   background: rgba(25, 26, 26,0.8);
   border-left: solid 1px #1b1f22;
-  color: #808080;
+  color: #aaa;
   z-index: 3;
   transition: right 0.5;
 }
   .info h2{
     margin: 0;
     display: inline-block;
+    color: #ddd;
   }
   .info .circle{
     vertical-align: sub;
