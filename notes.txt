@@ -7,3 +7,28 @@ blue    #0099b3
 ### Sound Map
 
 A map created to share the sonorous wealth of our planet. You will discover different varieties of sounds, from nearby and remote places, sounds of nature, music, soundscapes, etc.
+
+MapBox filters
+https://docs.mapbox.com/mapbox-gl-js/example/filter-markers/
+
+brilloEnMovimiento
+
+.icon-zone:before {
+  content: '';
+  background: linear-gradient(45deg, #FFFFFF, #878E88, #B5FED9, #a1bab3, #a5c961, #423B0B, #5fb065, #333032, #000000);
+  position: absolute;
+  top: -2px;
+  left: -2px;
+  background-size: 400%;
+  z-index: -1;
+  filter: blur(5px);
+  width: calc(100% + 4px);
+  height: calc(100% + 4px);
+  animation: glowing 20s linear infinite;
+  opacity: 1;
+  transition: opacity .3s ease-in-out;
+  border-radius: 50%;
+}
+
+Traducir a es,fr,pt. Añadir textos en MapBox, lang=es.
+En php cargar los textos 
